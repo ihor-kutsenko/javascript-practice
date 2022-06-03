@@ -30,3 +30,18 @@ function checkStorage(available, ordered) {
   return message;
 }
 console.log(checkStorage(100, 50));
+//
+//
+// ВАРІАНТ 2
+//
+//
+function checkStorage(available, ordered) {
+  let message;
+
+  message =
+    ordered > available
+      ? "Not enough goods in stock!"
+      : "The order is accepted, our manager will contact you";
+
+  return message;
+}

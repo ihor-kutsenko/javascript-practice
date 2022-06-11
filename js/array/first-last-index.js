@@ -12,3 +12,9 @@ function getExtremeElements(array) {
 }
 console.log(getExtremeElements([1, 2, 3, 4, 5]));
 console.log(getExtremeElements(["Earth", "Mars", "Venus"]));
+//
+
+const clients = ["Mango", "Poly", "Ajax"];
+const lastelementindex = clients.length - 1;
+console.log(lastelementindex);
+console.log(clients[lastelementindex]);

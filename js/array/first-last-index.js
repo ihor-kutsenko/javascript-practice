@@ -14,6 +14,14 @@ console.log(getExtremeElements([1, 2, 3, 4, 5]));
 console.log(getExtremeElements(["Earth", "Mars", "Venus"]));
 //
 
+// variant 2
+function getExtremeElements(array) {
+  const firstElement = array[0];
+  const lastElementIndex = array.length - 1;
+  const lastElement = array[lastElementIndex];
+  return [firstElement, lastElement];
+}
+// /////
 const clients = ["Mango", "Poly", "Ajax"];
 const lastelementindex = clients.length - 1;
 console.log(lastelementindex);
